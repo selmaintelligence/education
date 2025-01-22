@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function fetchData() {
-    fetch('https://selmaintelligence.pythonanywhere.com/data')
+    fetch('https://selmaintelligence.pythonanywhere.com/')
         .then(response => response.json())
         .then(data => {
             const contentDiv = document.getElementById('content');
